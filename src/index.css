@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Set initial opacity to 1 for immediate visibility */
+  .custom-border {
+    border-top: 1px solid #d4af37;
+  }
+  .custom-border4 {
+    border-bottom: 1px solid #d4af37;
+  }
+  .headings {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .TimesNewRoman {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .custom-border2 {
+    border: 0.5px solid #d4af37;
+    padding: 3px 7px;
+    border-radius: 4px;
+  }
+  .custom-border2:hover {
+    background-color: #d4af37;
+  }
+  .custom-border3 {
+    border: 2px solid #d4af37;
+    padding: 6px 7px;
+  }
+  .marginMinus {
+    margin-top: -12px;
+  }
+  .gradient-background {
+    background: linear-gradient(to bottom, #002349 50%, white 50%);
+  }
+  .right-border {
+    border-right: 2px solid #d4af37;
+  }
+  .styled-input {
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid black;
+    color: black;
+    outline: none;
+  }
+  .styled-input:focus {
+    border-color: #e0e0e0; /* Slightly darker border on focus */
+  }
+  .Abel {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  .custom-border-underline {
+    border: 2px solid #002349;
+    background-color: #002349;
+    border-bottom: 2px solid black;
+    outline: none;
+  }
+  input:focus {
+    outline: none; /* Remove default outline */
+    border: 1px solid #002349;
+    box-shadow: none; /* Example: Add a custom border on focus */
+    /* Add any other styling you need */
+  }
+  input::after {
+    outline: none;
+    border-color: #002349;
+  }
+  .animate__animated {
+    animation-duration: 1s; /* Adjust animation duration as desired */
+    animation-fill-mode: forwards; /* Keep element visible after animation */
+  }
+
+  .animate__fadeInLeft {
+    opacity: 0;
+    animation-name: fadeInLeft;
+  }
+
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  /* /src/styles/animations.css */
+
+  .transition-transform {
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+  }
+
+  .translate-y-full {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  .translate-y-0 {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  /* /src/styles/animations.css */
+
+  .transition-transform {
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+  }
+
+  .translate-x-full {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  .translate-x-0 {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
