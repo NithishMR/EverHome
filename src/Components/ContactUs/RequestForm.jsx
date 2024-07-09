@@ -23,7 +23,7 @@ function RequestForm() {
   };
 
   return (
-    <form className="max-w-[70%] mx-auto p-4 space-y-6 bg-white rounded shadow-md">
+    <form className="max-w-[90%] md:max-w-[70%] mx-auto p-4 space-y-6 bg-white rounded shadow-md">
       <div className="grid grid-cols-1 gap-6">
         <div>
           <label className="block text-sm font-medium text-gray-700">

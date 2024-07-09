@@ -5,19 +5,19 @@ import ThankYouMessage from "./ThankyouMessage";
 function ContactPage() {
   return (
     <>
-      <div className="bg-[#002349] text-[#fff] flex items-center justify-around">
-        <div className="">
+      <div className="bg-[#002349] text-[#fff] flex flex-col md:flex-row items-center justify-around p-4">
+        <div className="mb-2 md:mb-0">
           <div className="text-3xl w-[200px] text-center cursor-pointer TimesNewRoman tracking-tight">
             Real Estate<p className="text-xl tracking-tight">EverHome</p>
           </div>
         </div>
-        <div className="">
+        <div className="text-center">
           <p>EVERHOME'S INTERNATIONAL REALTY GLOBAL CARE</p>
         </div>
       </div>
-      <div className="flex justify-center ">
+      <div className="flex justify-center">
         <img
-          className="w-full h-[300px] object-cover"
+          className="w-full h-[200px] md:h-[300px] object-cover"
           src="../src/assets/sir-background.png"
           alt="High Quality Image"
         />
@@ -53,4 +53,5 @@ function ContactPage() {
     </>
   );
 }
+
 export default ContactPage;

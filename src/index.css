@@ -119,4 +119,9 @@
     transform: translateX(0);
     opacity: 1;
   }
+  @import url("https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap");
+
+  .TimesNewRoman {
+    font-family: "Times New Roman", serif;
+  }
 }

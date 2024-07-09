@@ -1,3 +1,4 @@
+// SellNavigation.js
 import { useState, useEffect } from "react";
 
 function useSmoothScroll() {
@@ -38,36 +39,39 @@ function useSmoothScroll() {
 
   return handleSmoothScroll;
 }
+
 function SellNavigation() {
   const smoothScroll = useSmoothScroll();
   return (
-    <>
-      <div className="flex justify-end text-[#303133] py-10 ">
-        <div className="flex items-center justify-around w-[600px] ">
-          <p
-            className="font-medium border-[#D4AF37] border-b-0 hover:border-b-4 "
-            onClick={smoothScroll}
-          >
-            <a href="#overview">OVERVIEW</a>
-          </p>
-          <p
-            className="font-medium border-[#D4AF37] border-b-0 hover:border-b-4"
-            onClick={smoothScroll}
-          >
-            <a href="#findAnExpert">FIND AN EXPERT</a>
-          </p>
-          <p
-            className="font-medium border-[#D4AF37] border-b-0 hover:border-b-4 "
-            onClick={smoothScroll}
-          >
-            <a href="#marketing">MARKETING</a>
-          </p>
-          <p className="custom-border3 font-medium " onClick={smoothScroll}>
-            <a href="#listYourHome">LIST YOUR HOME</a>
-          </p>
-        </div>
+    <div className="flex justify-end text-[#303133] py-10">
+      <div className="flex items-center justify-around w-full md:w-[600px]">
+        <p
+          className="font-medium border-[#D4AF37] border-b-0 hover:border-b-4 cursor-pointer"
+          onClick={smoothScroll}
+        >
+          <a href="#overview">OVERVIEW</a>
+        </p>
+        <p
+          className="font-medium border-[#D4AF37] border-b-0 hover:border-b-4 cursor-pointer"
+          onClick={smoothScroll}
+        >
+          <a href="#findAnExpert">FIND AN EXPERT</a>
+        </p>
+        <p
+          className="font-medium border-[#D4AF37] border-b-0 hover:border-b-4 cursor-pointer"
+          onClick={smoothScroll}
+        >
+          <a href="#marketing">MARKETING</a>
+        </p>
+        <p
+          className="font-medium border-[#D4AF37] border-b-0 hover:border-b-4 cursor-pointer"
+          onClick={smoothScroll}
+        >
+          <a href="#listYourHome">LIST YOUR HOME</a>
+        </p>
       </div>
-    </>
+    </div>
   );
 }
+
 export default SellNavigation;

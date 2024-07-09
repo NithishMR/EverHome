@@ -2,49 +2,127 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="footer grid-rows-2 p-10  text-neutral-content bg-[#002349]">
-      <nav>
-        <h6 className="footer-title text-[#D4AF37]">Services</h6>
-        <a className="link link-hover">Branding</a>
-        <a className="link link-hover">Design</a>
-        <a className="link link-hover">Marketing</a>
-        <a className="link link-hover">Advertisement</a>
-      </nav>
-      <nav>
-        <h6 className="footer-title text-[#D4AF37]">Company</h6>
-        <a className="link link-hover">About us</a>
-        <Link to={"/ContactPage"}>Contact</Link>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
-      </nav>
-      <nav>
-        <h6 className="footer-title text-[#D4AF37]">Legal</h6>
-        <a className="link link-hover">Terms of use</a>
-        <a className="link link-hover">Privacy policy</a>
-        <a className="link link-hover">Cookie policy</a>
-      </nav>
-      <nav>
-        <h6 className="footer-title text-[#D4AF37]">Social</h6>
-        <a className="link link-hover">Twitter</a>
-        <a className="link link-hover">Instagram</a>
-        <a className="link link-hover">Facebook</a>
-        <a className="link link-hover">Github</a>
-      </nav>
-      <nav>
-        <h6 className="footer-title text-[#D4AF37]">Explore</h6>
-        <a className="link link-hover">Features</a>
-        <a className="link link-hover">Enterprise</a>
-        <a className="link link-hover">Security</a>
-        <a className="link link-hover">Pricing</a>
-      </nav>
-      <nav>
-        <h6 className="footer-title text-[#D4AF37]">Apps</h6>
-        <a className="link link-hover">Mac</a>
-        <a className="link link-hover">Windows</a>
-        <a className="link link-hover">iPhone</a>
-        <a className="link link-hover">Android</a>
-      </nav>
+    <footer className="bg-[#002349] text-[#fff] py-10 px-4 md:px-8 lg:px-16">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <nav>
+          <h6 className="footer-title text-[#D4AF37] text-xl font-semibold mb-4">
+            Services
+          </h6>
+          <ul className="space-y-2">
+            <li>
+              <a className="link link-hover text-base">Branding</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Design</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Marketing</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Advertisement</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <h6 className="footer-title text-[#D4AF37] text-xl font-semibold mb-4">
+            Company
+          </h6>
+          <ul className="space-y-2">
+            <li>
+              <a className="link link-hover text-base">About us</a>
+            </li>
+            <li>
+              <Link to={"/ContactPage"} className="link link-hover text-base">
+                Contact
+              </Link>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Jobs</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Press kit</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <h6 className="footer-title text-[#D4AF37] text-xl font-semibold mb-4">
+            Legal
+          </h6>
+          <ul className="space-y-2">
+            <li>
+              <a className="link link-hover text-base">Terms of use</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Privacy policy</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Cookie policy</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <h6 className="footer-title text-[#D4AF37] text-xl font-semibold mb-4">
+            Social
+          </h6>
+          <ul className="space-y-2">
+            <li>
+              <a className="link link-hover text-base">Twitter</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Instagram</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Facebook</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Github</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <h6 className="footer-title text-[#D4AF37] text-xl font-semibold mb-4">
+            Explore
+          </h6>
+          <ul className="space-y-2">
+            <li>
+              <a className="link link-hover text-base">Features</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Enterprise</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Security</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <h6 className="footer-title text-[#D4AF37] text-xl font-semibold mb-4">
+            Apps
+          </h6>
+          <ul className="space-y-2">
+            <li>
+              <a className="link link-hover text-base">Mac</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Windows</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">iPhone</a>
+            </li>
+            <li>
+              <a className="link link-hover text-base">Android</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div className="mt-8 text-center text-sm text-gray-400">
+        <p>© 2024 Your Company. All rights reserved.</p>
+      </div>
     </footer>
   );
 }
+
 export default Footer;
