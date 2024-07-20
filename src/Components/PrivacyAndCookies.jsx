@@ -4,7 +4,7 @@ function PrivacyAndCookies() {
   return (
     <div className="bg-[#002349] text-[#fff] py-4 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between custom-border4">
       {/* Message Section */}
-      <div className="text-center md:text-left mb-4 md:mb-0">
+      <div className=" leftToRight text-center md:text-left mb-4 md:mb-0">
         By using this site, you agree with our use of cookies.{" "}
         <Link
           to={"/PrivacyAndPolicy"}
