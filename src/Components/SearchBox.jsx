@@ -2,7 +2,7 @@ function SearchBox() {
   return (
     <>
       {/*<!-- Component: Plain basic base sized search input  --> */}
-      <div className="relative my-6 w-[600px]">
+      <div className="relative my-6 ">
         <input
           id="id-s01"
           type="search"

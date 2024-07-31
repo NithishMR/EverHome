@@ -3,7 +3,7 @@ function Marketing() {
   return (
     <div id="marketing" className="grid grid-rows-2">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-around">
-        <div className="py-10 md:py-20 ml-0 md:ml-8">
+        <div className="py-5 md:py-7 ml-0 md:ml-8">
           <img
             src="../src/assets/Image6.webp"
             alt="Image6"
@@ -26,7 +26,7 @@ function Marketing() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-around">
         <div className="text-start px-5">
-          <p className="text-[30px] md:text-[50px] pt-10 md:pt-20 py-10">
+          <p className="text-[30px] md:text-[50px] pt-5 md:pt-10 py-10">
             What you can get only with us:
           </p>
           <p className="text-justify text-lg text-gray-400">

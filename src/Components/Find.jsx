@@ -15,7 +15,7 @@ function Find() {
           <div className="flex flex-col justify-center gap-6">
             <div className="flex justify-center md:justify-start gap-8">
               <Link
-                to={"*"}
+                to={"/*"}
                 className="text-sm md:text-lg lg:text-xl border-b-2 border-[#D4AF37] hover:border-b-4 pb-2"
               >
                 BUY
@@ -33,7 +33,7 @@ function Find() {
                 SELL
               </Link>
               <Link
-                to={"/Agent"}
+                to={"/Agents"}
                 className="text-sm md:text-lg lg:text-xl border-b-2 border-[#D4AF37] hover:border-b-4 "
               >
                 AGENTS

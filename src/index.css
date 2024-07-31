@@ -10,6 +10,9 @@
   .custom-border4 {
     border-bottom: 1px solid #d4af37;
   }
+  .custom-border5 {
+    border-bottom: 1px solid gray;
+  }
   .headings {
     font-family: "Times New Roman", Times, serif;
   }

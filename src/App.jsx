@@ -6,6 +6,8 @@ import FullNavigation from "./Components/FullNavigation";
 import Sell from "./Components/Sell";
 import ContactPage from "./Components/ContactPage";
 import Agent from "./Components/Agent";
+import Auction from "./Components/Auction";
+import Agents from "./Components/Agents";
 function App() {
   return (
     <>
@@ -14,9 +16,11 @@ function App() {
           <Route exact path="/" element={<FirstPageBundle />} />
           <Route path="/Demo" element={<Demo />} />
           <Route path="/Sell" element={<Sell />} />
+          <Route path="/Agents" element={<Agents />} />
         </Route>
         <Route path="/ContactPage" element={<ContactPage />} />
         <Route path="/Agent" element={<Agent />} />
+
         <Route path="*" element={<Agent />} />
       </Routes>
     </>

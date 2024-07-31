@@ -26,7 +26,7 @@ function Navigation() {
                 PROPERTIES
               </div>
             </Link>
-            <Link to="/agent" aria-label="Agent">
+            <Link to="/Agents" aria-label="Agent">
               <div className="cursor-pointer border-b-2 border-transparent hover:border-b-4 hover:border-[#D4AF37] pb-2 transition duration-300">
                 AGENT
               </div>
