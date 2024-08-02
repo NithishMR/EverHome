@@ -1,5 +1,5 @@
 import React from "react";
-import agentData from "../../public/Agents.json";
+import agentData from "../../src/Agents.json";
 import imageSrc from "/src/assets/Image13.jpg";
 
 function Agents() {
