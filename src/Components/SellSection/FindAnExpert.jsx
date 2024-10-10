@@ -9,8 +9,8 @@ function FindAnExpert() {
         </p>
         <p className="text-gray-400 text-lg pt-2 leading-relaxed">
           <span>
-            If you are considering a move anywhere around the globe, it would be
-            our privilege to help you{" "}
+            If you're thinking about relocating anywhere in the world, we would
+            be honored to assist you on your journey
           </span>
           <span>facilitate your best outcome.</span>
         </p>
@@ -26,10 +26,10 @@ function FindAnExpert() {
             Meet a local expert who can help your journey.
           </p>
           <p className="text-justify">
-            Our network of local real estate professionals apply their local
-            market knowledge to create a comprehensive and customized plan for
-            your home. Find an agent who is closest you and learn their local
-            expertise.
+            Our network of local real estate professionals leverages their
+            market expertise to develop a personalized and comprehensive
+            strategy for your home. Connect with an agent near you to tap into
+            their local insights
           </p>
           <div className="flex items-center pt-4">
             <p className="font-medium mr-2">FIND YOUR AGENT</p>
@@ -45,13 +45,13 @@ function FindAnExpert() {
             className="w-full"
           />
           <p className="headings text-xl md:text-2xl py-4 md:py-7">
-            Access our local expertise and exceptional service.
+            Tap into our local expertise and outstanding service
           </p>
           <p className="text-justify">
-            With experts in every part of the world, we are local everywhere.
-            With innovative technology and unrivaled service, our local
-            brokerage offices can elevate your property and your home selling
-            experience.
+            With experts in every corner of the globe, we have a local presence
+            everywhere. Our innovative technology and unmatched service empower
+            our brokerage offices to enhance both your property and your
+            home-selling journey
           </p>
           <div className="flex items-center pt-4">
             <p className="font-medium mr-2">CONTACT YOUR LOCAL OFFICE</p>

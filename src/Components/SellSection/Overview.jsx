@@ -22,11 +22,11 @@ function Overview() {
           Get it the attention it deserves.
         </p>
         <p className="text-lg w-[90%] md:w-[50%] text-justify m-auto text-gray-400 leading-relaxed pt-4">
-          For those who demand an elevated service like none other, there’s
-          Everhome's International Realty. We’re the industry’s best agents,
-          curating with incomparable attention to style and detail. We’re here
-          for you to help sell your home at a scale you just won’t find anywhere
-          else.
+          For those who seek unparalleled service, Everhome's International
+          Realty is your premier choice. Our exceptional agents are dedicated to
+          providing an unmatched level of expertise, ensuring every detail is
+          meticulously curated. We're committed to helping you sell your home
+          with a level of support and scale that is truly one of a kind
         </p>
       </div>
     </div>

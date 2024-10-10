@@ -27,16 +27,16 @@ function Pictures3() {
         ref={storiesRef}
       >
         <div className="text-center text-[30px] md:text-[40px] lg:text-[50px] font-bold py-10 text-[#fff]">
-          RESIDE MAGAZINE
+          LUXURY MAGAZINE
         </div>
-        <div className="text-center text-[20px] md:text-[30px] lg:text-[40px] font-light text-[#ccc] mb-8">
-          <div>Exceptional Locations,</div>
-          <div>Unrivaled Lifestyles.</div>
+        <div className="text-center text-[20px] md:text-[30px] lg:text-[40px] font-light text-[#000] mb-8">
+          <div>Distinctive Destinations,</div>
+          <div>Unmatched Living Experiences.</div>
         </div>
       </div>
 
       {/* Images Section */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-[90%] lg:w-[80%] m-auto mb-28 mt-10">
+      <div className="pt-8  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-[90%] lg:w-[80%] m-auto mb-28 mt-10">
         {/* First Image */}
         <div
           className={`transition-transform duration-1000 ${
@@ -48,24 +48,24 @@ function Pictures3() {
         >
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover pa"
               src="../src/assets/Image1.webp"
               alt="Image1"
             />
           </div>
           <div className="text-center mt-4">
             <p className="font-['Open_Sans'] text-xl md:text-2xl mb-2 TimesNewRoman text-[#fff]">
-              RESIDE Magazine
+              Luxury Magazine
             </p>
             <p className="text-[#999]">
-              Exceptional location, Unrivaled Lifetime
+              Distinctive Destinations, Unmatched Lifestyle
             </p>
           </div>
         </div>
 
         {/* Second Image */}
         <div
-          className={`transition-transform duration-1000 ${
+          className={` pt-10 transition-transform duration-1000 ${
             secondImageInView
               ? "translate-y-0 opacity-100"
               : "translate-y-12 opacity-0"
@@ -84,8 +84,7 @@ function Pictures3() {
               LUXURY Outlook
             </p>
             <p className="text-[#999]">
-              An ambitious exploration into high-end residential markets across
-              the globe
+              An ambitious journey through luxury residential markets worldwide
             </p>
           </div>
         </div>

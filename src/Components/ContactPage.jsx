@@ -1,6 +1,5 @@
 import RequestForm from "./ContactUs/RequestForm";
 import ThankYouMessage from "./ThankyouMessage";
-// import FindAnExpert from "./SellSection/FindAnExpert"
 
 function ContactPage() {
   return (
@@ -12,7 +11,7 @@ function ContactPage() {
           </div>
         </div>
         <div className="text-center">
-          <p>EVERHOME'S INTERNATIONAL REALTY GLOBAL CARE</p>
+          <p>GLOBAL CLIENT SERVICES AT EVERHOME REALTY</p>
         </div>
       </div>
       <div className="flex justify-center">
@@ -26,29 +25,26 @@ function ContactPage() {
       <RequestForm />
 
       <div className="text-sm text-gray-500 flex flex-col justify-center items-center py-4 w-[90%] m-auto my-10">
-        <p>©Everhome. All Rights Reserved.</p>
-        <p>Texas Real Estate Commission Consumer Protection Notice</p>
+        <p>©EverHome. All rights reserved.</p>
+        <p>Notice: Texas Real Estate Commission Consumer Protection</p>
         <p>
-          Everhome fully supports the principles of the Fair Housing Act and the
-          Equal Opportunity Act. Each Office is Independently Owned and
-          Operated. Everhome, the Everhome logo, "For the Ongoing Collection of
-          Life" and RESIDE are registered (or unregistered) service marks owned
-          or licensed to Everhome.
+          EverHome Realty is fully committed to promoting the Fair Housing Act
+          and Equal Opportunity regulations. Every office operates
+          independently, and EverHome, the EverHome logo, and associated
+          trademarks are property of EverHome or its licensors.
         </p>
         <p>
-          The information set forth on this site is based upon information which
-          we consider reliable, but because it has been supplied by third
-          parties to our franchisees (who in turn supplied it to us), we cannot
-          represent that it is accurate or complete, and it should not be relied
-          upon as such. The offerings are subject to errors, omissions, changes,
-          including price, or withdrawal without notice. All dimensions are
-          approximate and have not been verified by the selling party and cannot
-          be verified by Everhome. It is recommended that you hire a
-          professional in the business of determining dimensions, such as an
-          appraiser, architect, or civil engineer, to determine such
-          information.
+          Information provided on this website is based on reliable sources, but
+          since it may come from third parties or other sources, accuracy and
+          completeness cannot be guaranteed. Listings and offers are subject to
+          change, errors, or removal without prior notice. All measurements are
+          approximate and should be independently verified by professionals,
+          such as architects, appraisers, or surveyors.
         </p>
-        <p>Texas Real Estate Commission Information About Brokerage Services</p>
+        <p>
+          For more details, visit: Texas Real Estate Commission - Brokerage
+          Information
+        </p>
       </div>
     </>
   );

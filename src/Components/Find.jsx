@@ -8,8 +8,8 @@ function Find() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
             <p className="leftToRight text-3xl md:text-4xl lg:text-5xl font-thin tracking-tight TimesNewRoman">
-              <p>Find a home that suits</p>
-              <p>your lifestyle</p>
+              <p>Discover the perfect home </p>
+              <p>tailored to your lifestyle</p>
             </p>
           </div>
           <div className="flex flex-col justify-center gap-6">

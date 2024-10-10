@@ -12,7 +12,7 @@ function VideoSection() {
       <div className="text-center mt-20">
         <div className="text-[40px] font-['Open_Sans'] mb-3">Get Inspired</div>
         <div className="text-sm mx-auto w-full max-w-md text-[#999]">
-          For those who seek an exceptional home and
+          For those in pursuit of an extraordinary residence and
           <p className="mt-2">life, browse our video series catalogue.</p>
         </div>
       </div>

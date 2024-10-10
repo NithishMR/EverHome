@@ -10,7 +10,7 @@
     "address": "EMAAR Business Park, Bldg. 4, Office G-05, Dubai, United Arab Emirates"
   },
   {
-    "name": "John Doe",
+    "name": "John Anderson",
     "title": "MANAGING DIRECTOR",
     "contacts": {
       "contact1": "O: 971 4 555 1234",
@@ -20,7 +20,7 @@
     "address": "EMAAR Business Park, Bldg. 5, Office G-06, Dubai, United Arab Emirates"
   },
   {
-    "name": "Jane Smith",
+    "name": "Jane Wilson",
     "title": "SALES MANAGER",
     "contacts": {
       "contact1": "O: 971 4 444 5678",
@@ -30,7 +30,7 @@
     "address": "Marina Square, Office 102, Abu Dhabi, United Arab Emirates"
   },
   {
-    "name": "Ahmed Ali",
+    "name": "Tyler Brown",
     "title": "MARKETING DIRECTOR",
     "contacts": {
       "contact1": "O: 971 4 333 6789",
@@ -40,7 +40,7 @@
     "address": "Sahara Centre, Office 203, Sharjah, United Arab Emirates"
   },
   {
-    "name": "Fatima Zahra",
+    "name": "Amanda Davis",
     "title": "PROPERTY CONSULTANT",
     "contacts": {
       "contact1": "O: 971 4 222 7890",
@@ -50,7 +50,7 @@
     "address": "Downtown Dubai, Office 303, Dubai, United Arab Emirates"
   },
   {
-    "name": "Omar Hassan",
+    "name": "Omar Parker",
     "title": "LEASING MANAGER",
     "contacts": {
       "contact1": "O: 971 4 111 8901",
@@ -60,7 +60,7 @@
     "address": "Reem Island, Office 404, Abu Dhabi, United Arab Emirates"
   },
   {
-    "name": "Layla Ahmed",
+    "name": "Layla Johnson",
     "title": "FINANCE MANAGER",
     "contacts": {
       "contact1": "O: 971 4 555 0123",
@@ -70,7 +70,7 @@
     "address": "JLT, Office 505, Dubai, United Arab Emirates"
   },
   {
-    "name": "Mohammed Khalid",
+    "name": "Jake Williams",
     "title": "HR DIRECTOR",
     "contacts": {
       "contact1": "O: 971 4 666 4567",
@@ -80,7 +80,7 @@
     "address": "Al Nahda, Office 606, Sharjah, United Arab Emirates"
   },
   {
-    "name": "Sara Hassan",
+    "name": "Sara Taylor",
     "title": "LEGAL ADVISOR",
     "contacts": {
       "contact1": "O: 971 4 777 6789",
@@ -90,7 +90,7 @@
     "address": "Business Bay, Office 707, Dubai, United Arab Emirates"
   },
   {
-    "name": "Yousef Omar",
+    "name": "Yousef Harris",
     "title": "IT MANAGER",
     "contacts": {
       "contact1": "O: 971 4 888 7890",
@@ -98,275 +98,5 @@
     },
     "branch": "Abu Dhabi Everhome Realty",
     "address": "Khalifa City, Office 808, Abu Dhabi, United Arab Emirates"
-  },
-  {
-    "name": "Aisha Mustafa",
-    "title": "OPERATIONS MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 999 8901",
-      "contact2": "O: +971.4999.0850"
-    },
-    "branch": "Dubai Everhome Realty",
-    "address": "Dubai Marina, Office 909, Dubai, United Arab Emirates"
-  },
-  {
-    "name": "Zainab Abdullah",
-    "title": "PROJECT MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 000 9012",
-      "contact2": "O: +971.4000.0860"
-    },
-    "branch": "Sharjah Everhome Realty",
-    "address": "Al Qasimia, Office 1010, Sharjah, United Arab Emirates"
-  },
-  {
-    "name": "Hassan Ibrahim",
-    "title": "SALES DIRECTOR",
-    "contacts": {
-      "contact1": "O: 971 4 111 0123",
-      "contact2": "O: +971.4111.0870"
-    },
-    "branch": "Dubai Everhome Realty",
-    "address": "Jumeirah Beach Residence, Office 1111, Dubai, United Arab Emirates"
-  },
-  {
-    "name": "Amira Ali",
-    "title": "MARKETING MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 222 1234",
-      "contact2": "O: +971.4222.0880"
-    },
-    "branch": "Abu Dhabi Everhome Realty",
-    "address": "Al Reem Island, Office 1212, Abu Dhabi, United Arab Emirates"
-  },
-  {
-    "name": "Omar Ahmed",
-    "title": "FINANCIAL ANALYST",
-    "contacts": {
-      "contact1": "O: 971 4 333 2345",
-      "contact2": "O: +971.4333.0890"
-    },
-    "branch": "Sharjah Everhome Realty",
-    "address": "Al Khan, Office 1313, Sharjah, United Arab Emirates"
-  },
-  {
-    "name": "Sara Ali",
-    "title": "PROPERTY MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 444 3456",
-      "contact2": "O: +971.4444.0900"
-    },
-    "branch": "Dubai Everhome Realty",
-    "address": "The Palm Jumeirah, Office 1414, Dubai, United Arab Emirates"
-  },
-  {
-    "name": "Layla Khalid",
-    "title": "HR MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 555 4567",
-      "contact2": "O: +971.4555.0910"
-    },
-    "branch": "Abu Dhabi Everhome Realty",
-    "address": "Saadiyat Island, Office 1515, Abu Dhabi, United Arab Emirates"
-  },
-  {
-    "name": "Yousef Hassan",
-    "title": "IT DIRECTOR",
-    "contacts": {
-      "contact1": "O: 971 4 666 5678",
-      "contact2": "O: +971.4666.0920"
-    },
-    "branch": "Sharjah Everhome Realty",
-    "address": "Al Majaz, Office 1616, Sharjah, United Arab Emirates"
-  },
-  {
-    "name": "Aisha Omar",
-    "title": "LEGAL MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 777 6789",
-      "contact2": "O: +971.4777.0930"
-    },
-    "branch": "Dubai Everhome Realty",
-    "address": "Downtown Dubai, Office 1717, Dubai, United Arab Emirates"
-  },
-  {
-    "name": "Ahmed Mustafa",
-    "title": "OPERATIONS DIRECTOR",
-    "contacts": {
-      "contact1": "O: 971 4 888 7890",
-      "contact2": "O: +971.4888.0940"
-    },
-    "branch": "Abu Dhabi Everhome Realty",
-    "address": "Reem Island, Office 1818, Abu Dhabi, United Arab Emirates"
-  },
-  {
-    "name": "Fatima Khalid",
-    "title": "PROJECT DIRECTOR",
-    "contacts": {
-      "contact1": "O: 971 4 999 8901",
-      "contact2": "O: +971.4999.0950"
-    },
-    "branch": "Sharjah Everhome Realty",
-    "address": "Al Qasimia, Office 1919, Sharjah, United Arab Emirates"
-  },
-  {
-    "name": "Zainab Hassan",
-    "title": "SALES MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 000 9012",
-      "contact2": "O: +971.4000.0960"
-    },
-    "branch": "Dubai Everhome Realty",
-    "address": "JLT, Office 2020, Dubai, United Arab Emirates"
-  },
-  {
-    "name": "Hassan Ali",
-    "title": "MARKETING DIRECTOR",
-    "contacts": {
-      "contact1": "O: 971 4 111 0123",
-      "contact2": "O: +971.4111.0970"
-    },
-    "branch": "Abu Dhabi Everhome Realty",
-    "address": "Al Reem Island, Office 2121, Abu Dhabi, United Arab Emirates"
-  },
-  {
-    "name": "Amira Hassan",
-    "title": "FINANCE DIRECTOR",
-    "contacts": {
-      "contact1": "O: 971 4 222 1234",
-      "contact2": "O: +971.4222.0980"
-    },
-    "branch": "Sharjah Everhome Realty",
-    "address": "Al Khan, Office 2222, Sharjah, United Arab Emirates"
-  },
-  {
-    "name": "Mohammed Ahmed",
-    "title": "PROPERTY CONSULTANT",
-    "contacts": {
-      "contact1": "O: 971 4 333 2345",
-      "contact2": "O: +971.4333.0990"
-    },
-    "branch": "Dubai Everhome Realty",
-    "address": "The Palm Jumeirah, Office 2323, Dubai, United Arab Emirates"
-  },
-  {
-    "name": "Sara Khalid",
-    "title": "HR CONSULTANT",
-    "contacts": {
-      "contact1": "O: 971 4 444 3456",
-      "contact2": "O: +971.4444.1000"
-    },
-    "branch": "Abu Dhabi Everhome Realty",
-    "address": "Saadiyat Island, Office 2424, Abu Dhabi, United Arab Emirates"
-  },
-  {
-    "name": "Yousef Ali",
-    "title": "IT CONSULTANT",
-    "contacts": {
-      "contact1": "O: 971 4 555 4567",
-      "contact2": "O: +971.4555.1010"
-    },
-    "branch": "Sharjah Everhome Realty",
-    "address": "Al Majaz, Office 2525, Sharjah, United Arab Emirates"
-  },
-  {
-    "name": "Aisha Hassan",
-    "title": "LEGAL CONSULTANT",
-    "contacts": {
-      "contact1": "O: 971 4 666 5678",
-      "contact2": "O: +971.4666.1020"
-    },
-    "branch": "Dubai Everhome Realty",
-    "address": "Business Bay, Office 2626, Dubai, United Arab Emirates"
-  },
-  {
-    "name": "Ahmed Khalid",
-    "title": "OPERATIONS CONSULTANT",
-    "contacts": {
-      "contact1": "O: 971 4 777 6789",
-      "contact2": "O: +971.4777.1030"
-    },
-    "branch": "Abu Dhabi Everhome Realty",
-    "address": "Khalifa City, Office 2727, Abu Dhabi, United Arab Emirates"
-  },
-  {
-    "name": "Fatima Ali",
-    "title": "PROJECT CONSULTANT",
-    "contacts": {
-      "contact1": "O: 971 4 888 7890",
-      "contact2": "O: +971.4888.1040"
-    },
-    "branch": "Sharjah Everhome Realty",
-    "address": "Al Nahda, Office 2828, Sharjah, United Arab Emirates"
-  },
-  {
-    "name": "Zainab Mustafa",
-    "title": "SALES CONSULTANT",
-    "contacts": {
-      "contact1": "O: 971 4 999 8901",
-      "contact2": "O: +971.4999.1050"
-    },
-    "branch": "Dubai Everhome Realty",
-    "address": "Downtown Dubai, Office 2929, Dubai, United Arab Emirates"
-  },
-  {
-    "name": "Hassan Omar",
-    "title": "MARKETING CONSULTANT",
-    "contacts": {
-      "contact1": "O: 971 4 000 9012",
-      "contact2": "O: +971.4000.1060"
-    },
-    "branch": "Abu Dhabi Everhome Realty",
-    "address": "Reem Island, Office 3030, Abu Dhabi, United Arab Emirates"
-  },
-  {
-    "name": "Amira Mustafa",
-    "title": "FINANCIAL CONSULTANT",
-    "contacts": {
-      "contact1": "O: 971 4 111 0123",
-      "contact2": "O: +971.4111.1070"
-    },
-    "branch": "Sharjah Everhome Realty",
-    "address": "Al Qasimia, Office 3131, Sharjah, United Arab Emirates"
-  },
-  {
-    "name": "Mohammed Hassan",
-    "title": "PROPERTY MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 222 1234",
-      "contact2": "O: +971.4222.1080"
-    },
-    "branch": "Dubai Everhome Realty",
-    "address": "Jumeirah Beach Residence, Office 3232, Dubai, United Arab Emirates"
-  },
-  {
-    "name": "Sara Mustafa",
-    "title": "HR MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 333 2345",
-      "contact2": "O: +971.4333.1090"
-    },
-    "branch": "Abu Dhabi Everhome Realty",
-    "address": "Al Reem Island, Office 3333, Abu Dhabi, United Arab Emirates"
-  },
-  {
-    "name": "Yousef Khalid",
-    "title": "IT MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 444 3456",
-      "contact2": "O: +971.4444.1100"
-    },
-    "branch": "Sharjah Everhome Realty",
-    "address": "Al Khan, Office 3434, Sharjah, United Arab Emirates"
-  },
-  {
-    "name": "Aisha Ali",
-    "title": "LEGAL MANAGER",
-    "contacts": {
-      "contact1": "O: 971 4 555 4567",
-      "contact2": "O: +971.4555.1110"
-    },
-    "branch": "Dubai Everhome Realty",
-    "address": "The Palm Jumeirah, Office 3535, Dubai, United Arab Emirates"
   }
 ]

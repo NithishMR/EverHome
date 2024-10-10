@@ -12,15 +12,15 @@ function Marketing() {
         </div>
         <div className="text-start px-5">
           <p className="text-[30px] md:text-[50px] pt-10 md:pt-20 py-10">
-            Be where the world is looking.
+            Be at the center of global attention
           </p>
           <p className="text-justify text-lg text-gray-400 Abel">
-            The homes we represent benefit from the worldwide recognition and
-            prestige of the Sotheby's name and gain exclusive access to highly
-            qualified global clientele. Our award-winning website — now in 14
-            languages/dialects - attracts more visitors than any other luxury
-            real estate website. Our relationship with leading media outlets
-            increase traffic to our site and generate exposure for our listings.
+            The properties we represent gain from the global recognition and
+            prestige of the Everhome name, granting exclusive access to a
+            discerning clientele. Our award-winning website—available in 14
+            languages—draws more visitors than any other luxury real estate
+            platform. Our partnerships with top media outlets enhance site
+            traffic and amplify visibility for our listings
           </p>
         </div>
       </div>
@@ -30,11 +30,11 @@ function Marketing() {
             What you can get only with us:
           </p>
           <p className="text-justify text-lg text-gray-400">
-            With unrivaled marketing expertise and exclusive partnerships, we
-            elevate your brand to new heights. Our public relations powerhouse
-            leverages our brand heritage and reputation to secure impactful
-            media coverage, extending your reach to a truly global audience. All
-            while providing unmatched service to ensure a seamless and
+            With unmatched marketing expertise and exclusive collaborations, we
+            propel your brand to new heights. Our public relations powerhouse
+            harnesses our brand legacy and reputation to secure influential
+            media coverage, expanding your reach to a truly global audience. All
+            the while, we deliver exceptional service to guarantee a smooth and
             successful journey.
           </p>
         </div>
@@ -57,14 +57,14 @@ function Marketing() {
         </div>
         <div className="flex flex-col items-center">
           <p className="headings text-[30px] md:text-[50px] w-full md:w-[800px] text-center md:text-justify leading-snug heading">
-            Expertise that reaches down the block and around the world.
+            Expertise that spans from your neighborhood to the global stage
           </p>
           <p className="text-lg m-auto text-justify w-[90%] md:w-[60%] leading-relaxed pt-4">
-            We distribute our listings to the most relevant websites around the
-            globe and measure the impact with top analytic tools. Our worldwide
-            partners include the most authoritative news, lifestyle, and
-            financial voices, as well as real estate-centric websites. Nothing
-            compares to the expertise and exposure we can offer.
+            We showcase our listings on the most pertinent websites worldwide
+            and assess their performance using leading analytic tools. Our
+            global partnerships encompass influential news, lifestyle, and
+            financial platforms, as well as real estate-focused websites.
+            There’s no match for the expertise and visibility we provide.
           </p>
         </div>
       </div>

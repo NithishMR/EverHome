@@ -7,15 +7,16 @@ function WhatWeDo() {
         <div className="text-center md:text-left md:mt-10">
           <h2 className="text-[30px] font-semibold mb-4">What We Do</h2>
           <p className="text-[20px] mb-4">
-            For those who seek an exceptional home and life, there is only
-            EverHome International Services.
+            For those who aspire to an extraordinary home and lifestyle, only
+            EverHome International Services can deliver
           </p>
           <p className="text-[18px] text-[#666] leading-relaxed">
-            At The Everhome Agency, we understand that buying or selling a home
-            is a major life decision. Our dedicated team of real estate
-            professionals is here to make the process smooth and stress-free. We
-            offer personalized service and expert guidance to help you achieve
-            your real estate goals.
+            At EverHome Agency, we know that buying or selling a home is more
+            than just a transaction—it's a pivotal life decision. Our passionate
+            team of real estate professionals is committed to making your
+            experience effortless and enjoyable. With personalized service and
+            expert insights, we're here to turn your real estate dreams into
+            reality.
           </p>
         </div>
         <div className="flex items-center justify-center">

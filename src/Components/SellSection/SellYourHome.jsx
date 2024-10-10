@@ -114,10 +114,11 @@ function SellYourHome() {
               <p className="mt-4">
                 By clicking SEND MESSAGE, I agree a{" "}
                 <span className="italic">Everhome's International Realty</span>{" "}
-                Agent may contact me by phone or text message including by
-                automated means about real estate services, and that I can
-                access real estate services without providing my phone number. I
-                acknowledge that I have read and agree to the{" "}
+                Agents may reach out to me via phone or text message, including
+                automated methods, regarding real estate services. I understand
+                that I can access real estate services without providing my
+                phone number. I confirm that I have read and agree to the terms
+                outlined
                 <a href="#" className="text-blue-500 underline">
                   Terms of Use
                 </a>{" "}

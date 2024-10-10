@@ -5,8 +5,8 @@ function Highlights() {
       <div className="text-center">
         <p className="text-[#666] text-sm font-medium">EXCLUSIVE HIGHLIGHTS</p>
         <div className="text-[30px] md:text-[50px] headings">
-          <p>The way you market your home should</p>
-          <p>have that wow factor too.</p>
+          <p>Your home's marketing should </p>
+          <p>also leave a lasting impression</p>
         </div>
       </div>
       <div className="w-[90%] m-auto py-10 md:py-20">
@@ -21,12 +21,12 @@ function Highlights() {
               <p className="text-[#666] py-2">IN THE NEWS</p>
               <p className="headings text-xl py-2">Press Exposure</p>
               <p className="text-[#666] text-justify">
-                As the #1 most profiled luxury real estate brand in the news,
-                Everhome's International Realty leads the conversation. The
-                brand's award-winning press office and PR efforts position the
-                brand as a powerhouse in luxury real estate and drives traffic
-                to the brand website, and ultimately, Everhome's International
-                Realty listings.
+                As the premier luxury real estate brand frequently featured in
+                the media, Everhome's International Realty sets the standard for
+                industry conversations. Our award-winning press office and
+                public relations initiatives establish the brand as a dominant
+                force in the luxury market, driving significant traffic to our
+                website and showcasing Everhome's International Realty listings
               </p>
             </div>
           </div>
@@ -40,11 +40,11 @@ function Highlights() {
               <p className="text-[#666] py-2">UNPARALLELED NETWORK</p>
               <p className="headings text-xl py-2">Global Connections</p>
               <p className="text-[#666] text-justify">
-                Everhome's International Realty is the only truly global luxury
-                real estate company with 26,500 advisors working in more than
-                1,100 local offices across 81 countries and territories. Our
-                unparalleled network works together to meet your needs and
-                expectations.
+                Everhome's International Realty stands as the sole truly global
+                luxury real estate firm, boasting a network of 30,000 advisors
+                operating from over 1,200 local offices in 90 countries and
+                territories. Our exceptional network collaborates seamlessly to
+                fulfill your needs and exceed your expectations.
               </p>
             </div>
           </div>
@@ -58,10 +58,10 @@ function Highlights() {
               <p className="text-[#666] py-2">THE HIGHEST STANDARD</p>
               <p className="headings text-xl py-2">Unmatched Marketing</p>
               <p className="text-[#666] text-justify">
-                Everhome's International Realty works alongside the
-                highest-profile creative agencies and internal team to
-                successfully connect with global consumers always keeping
-                sophisticated design at the foundation.
+                Everhome's International Realty collaborates with top-tier
+                creative agencies and our internal team to effectively engage
+                with global consumers, ensuring that sophisticated design
+                remains at the core of our approach
               </p>
             </div>
           </div>
