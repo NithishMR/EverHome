@@ -21,8 +21,8 @@ function WhatWeDo() {
         </div>
         <div className="flex items-center justify-center">
           <img
-            className="w-full max-w-sm lg:max-w-md"
-            src="../src/Components/ImageRight.webp"
+            className="w-full max-w-sm lg:max-w-md rounded-2xl"
+            src="../src/Components/ImageRight.avif"
             alt="Image of a house or related to real estate"
           />
         </div>

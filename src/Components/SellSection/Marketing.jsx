@@ -5,7 +5,7 @@ function Marketing() {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-around">
         <div className="py-5 md:py-7 ml-0 md:ml-8">
           <img
-            src="../src/assets/Image6.webp"
+            src="../src/assets/Image6.avif"
             alt="Image6"
             className="w-full"
           />
@@ -40,7 +40,7 @@ function Marketing() {
         </div>
         <div className="py-10 md:py-20 ml-0 md:ml-8">
           <img
-            src="../src/assets/Image7.webp"
+            src="../src/assets/Image7.jpg!bw700"
             alt="Image7"
             className="w-full"
           />
@@ -59,7 +59,7 @@ function Marketing() {
           <p className="headings text-[30px] md:text-[50px] w-full md:w-[800px] text-center md:text-justify leading-snug heading">
             Expertise that spans from your neighborhood to the global stage
           </p>
-          <p className="text-lg m-auto text-justify w-[90%] md:w-[60%] leading-relaxed pt-4">
+          <p className="text-lg m-auto mt-4 text-justify w-[90%] md:w-[60%] leading-relaxed pt-4">
             We showcase our listings on the most pertinent websites worldwide
             and assess their performance using leading analytic tools. Our
             global partnerships encompass influential news, lifestyle, and

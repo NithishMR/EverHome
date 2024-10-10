@@ -119,7 +119,7 @@ function Footer() {
         </nav>
       </div>
       <div className="mt-8 text-center text-sm text-gray-400">
-        <p>© 2024 Your Company. All rights reserved.</p>
+        <p>© 2024 Everhome Realty. All rights reserved.</p>
       </div>
     </footer>
   );

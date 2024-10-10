@@ -4,12 +4,12 @@ function Auction() {
       <div className="grid grid-cols-1 md:grid-cols-2 my-[40px] md:my-[70px] px-4 md:px-8 lg:px-16 gap-8">
         <div className="flex justify-center items-center">
           <img
-            className="w-full max-w-[400px] md:max-w-[500px] lg:max-w-[600px]"
-            src="../src/Components/Auction.png"
+            className="w-full max-w-[400px] md:max-w-[500px] lg:max-w-[600px] rounded-2xl"
+            src="../src/Components/Auction.avif"
             alt="Auction"
           />
         </div>
-        <div className="flex flex-col items-center md:items-start justify-center gap-6">
+        <div className="flex flex-col items-center md:items-start justify-center gap-6 pl-20">
           <div className="text-center md:text-left">
             <p className="text-4xl md:text-5xl lg:text-6xl font-semibold">
               10,000

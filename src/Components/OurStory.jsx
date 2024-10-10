@@ -75,7 +75,7 @@ function OurStory() {
         >
           <img
             className="w-full md:w-[90%] lg:w-[95%] max-w-[600px] rounded-lg shadow-lg"
-            src="../src/Components/ImageRight2.webp"
+            src="../src/Components/ImageRight2.avif"
             alt="Our Story"
           />
         </div>

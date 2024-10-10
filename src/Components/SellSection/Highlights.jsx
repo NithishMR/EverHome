@@ -5,7 +5,7 @@ function Highlights() {
       <div className="text-center">
         <p className="text-[#666] text-sm font-medium">EXCLUSIVE HIGHLIGHTS</p>
         <div className="text-[30px] md:text-[50px] headings">
-          <p>Your home's marketing should </p>
+          <p>Your home's marketing should</p>
           <p>also leave a lasting impression</p>
         </div>
       </div>

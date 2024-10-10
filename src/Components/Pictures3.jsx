@@ -49,7 +49,7 @@ function Pictures3() {
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
               className="w-full h-auto object-cover pa"
-              src="../src/assets/Image1.webp"
+              src="../src/assets/Image1.jpg"
               alt="Image1"
             />
           </div>
@@ -75,7 +75,7 @@ function Pictures3() {
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
               className="w-full h-auto object-cover"
-              src="../src/assets/Image3.webp"
+              src="../src/assets/Image3.avif"
               alt="Image3"
             />
           </div>
@@ -106,11 +106,11 @@ function Pictures3() {
             />
           </div>
           <div className="text-center mt-4">
-            <p className="font-['Open_Sans'] text-xl md:text-2xl mb-2 TimesNewRoman text-[#fff]">
+            <p className="font-['Open_Sans'] text-xl md:text-2xl mb-2 TimesNewRoman text-[#fff] ">
               View homes from the <br />
               comfort of your life
             </p>
-            <p className="text-[#999]">
+            <p className="text-[#999] pt-5">
               Experience luxurious homes like never before, all from the comfort
               of yours
             </p>
