@@ -1,9 +1,7 @@
 // /src/components/Pictures3.js
+
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import Image1 from "../assets/Image1.jpg";
-import Image2 from "../assets/Image2.webp";
-import Image3 from "../assets/Image3.avif"; // Adjust the path as necessary
 
 function Pictures3() {
   const options = {
@@ -38,7 +36,7 @@ function Pictures3() {
       </div>
 
       {/* Images Section */}
-      <div className="pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-[90%] lg:w-[80%] m-auto mb-28 mt-10">
+      <div className="pt-8  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-[90%] lg:w-[80%] m-auto mb-28 mt-10">
         {/* First Image */}
         <div
           className={`transition-transform duration-1000 ${
@@ -51,7 +49,7 @@ function Pictures3() {
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
               className="w-full h-auto object-cover pa"
-              src={Image1} // Use the imported image here
+              src="../src/assets/Image1.jpg"
               alt="Image1"
             />
           </div>
@@ -67,7 +65,7 @@ function Pictures3() {
 
         {/* Second Image */}
         <div
-          className={`pt-10 transition-transform duration-1000 ${
+          className={` pt-10 transition-transform duration-1000 ${
             secondImageInView
               ? "translate-y-0 opacity-100"
               : "translate-y-12 opacity-0"
@@ -77,7 +75,7 @@ function Pictures3() {
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
               className="w-full h-auto object-cover"
-              src={Image3} // Use the imported image here
+              src="../src/assets/Image3.avif"
               alt="Image3"
             />
           </div>
@@ -103,7 +101,7 @@ function Pictures3() {
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
               className="w-full h-auto object-cover"
-              src={Image2} // Use the imported image here
+              src="../src/assets/Image2.webp"
               alt="Image2"
             />
           </div>

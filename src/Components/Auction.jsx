@@ -1,8 +1,3 @@
-// /src/components/Auction.js
-
-import React from "react";
-import auctionImage from "../src/Components/Auction.avif"; // Adjust the path as necessary
-
 function Auction() {
   return (
     <>
@@ -10,7 +5,7 @@ function Auction() {
         <div className="flex justify-center items-center">
           <img
             className="w-full max-w-[400px] md:max-w-[500px] lg:max-w-[600px] rounded-2xl"
-            src={auctionImage} // Use the imported image here
+            src="../src/Components/Auction.avif"
             alt="Auction"
           />
         </div>

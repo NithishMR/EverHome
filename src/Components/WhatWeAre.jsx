@@ -1,5 +1,4 @@
 import React from "react";
-import ImageRight from "./ImageRight.avif"; // Adjust the path based on your project structure
 
 function WhatWeDo() {
   return (
@@ -9,7 +8,7 @@ function WhatWeDo() {
           <h2 className="text-[30px] font-semibold mb-4">What We Do</h2>
           <p className="text-[20px] mb-4">
             For those who aspire to an extraordinary home and lifestyle, only
-            EverHome International Services can deliver.
+            EverHome International Services can deliver
           </p>
           <p className="text-[18px] text-[#666] leading-relaxed">
             At EverHome Agency, we know that buying or selling a home is more
@@ -23,7 +22,7 @@ function WhatWeDo() {
         <div className="flex items-center justify-center">
           <img
             className="w-full max-w-sm lg:max-w-md rounded-2xl"
-            src={ImageRight} // Use the imported image here
+            src="../src/Components/ImageRight.avif"
             alt="Image of a house or related to real estate"
           />
         </div>

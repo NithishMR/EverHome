@@ -1,15 +1,12 @@
 import React from "react";
-import Video1 from "../src/Components/HeroComponents/Video1.mp4"; // Adjust the path based on your project structure
-import ArrowIcon from "../src/assets/arrow.svg"; // Import the arrow icon
 
 function VideoSection() {
+  const videoSrcMp4 = "../src/Components/HeroComponents/Video1.mp4";
   return (
     <div className="mt-20 bg-[#002349] py-[80px] text-[#fff]">
       <div className="w-[90%] m-auto">
         <video controls className="w-full max-w-4xl mx-auto">
-          <source src={Video1} type="video/mp4" />{" "}
-          {/* Use the imported video here */}
-          Your browser does not support the video tag.
+          <source src={videoSrcMp4} type="video/mp4" />
         </video>
       </div>
       <div className="text-center mt-20">
@@ -25,7 +22,7 @@ function VideoSection() {
           type="button"
           className="ml-3 p-2 bg-[#D4AF37] rounded-full hover:bg-[#b98a1c]"
         >
-          <img src={ArrowIcon} alt="arrow" /> {/* Use the imported icon here */}
+          <img src="../src/assets/arrow.svg" alt="arrow" />
         </button>
       </div>
     </div>

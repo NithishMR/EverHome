@@ -1,10 +1,4 @@
-// /src/components/FindAnExpert.js
-
-import React from "react";
-import image4 from "../src/assets/Image4.jpg"; // Adjust the path as necessary
-import image5 from "../src/assets/Image5.avif"; // Adjust the path as necessary
-import arrow from "../src/assets/arrow.svg"; // Adjust the path as necessary
-
+// FindAnExpert.js
 function FindAnExpert() {
   return (
     <div id="findAnExpert" className="bg-[#002349] text-[#fff]">
@@ -18,16 +12,12 @@ function FindAnExpert() {
             If you're thinking about relocating anywhere in the world, we would
             be honored to assist you on your journey
           </span>
-          <span> and facilitate your best outcome.</span>
+          <span>facilitate your best outcome.</span>
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 w-[90%] md:w-[80%] gap-[20px] md:gap-[40px] m-auto pt-16 pb-24">
         <div className="flex flex-col items-start justify-around">
-          <img
-            src={image4}
-            alt="Local expert helping your journey"
-            className="w-full"
-          />
+          <img src="../src/assets/Image4.jpg" alt="Image4" className="w-full" />
           <p className="headings text-xl md:text-2xl py-4 md:py-7">
             Meet a local expert who can help your journey.
           </p>
@@ -35,30 +25,34 @@ function FindAnExpert() {
             Our network of local real estate professionals leverages their
             market expertise to develop a personalized and comprehensive
             strategy for your home. Connect with an agent near you to tap into
-            their local insights.
+            their local insights
           </p>
           <div className="flex items-center pt-4">
             <p className="font-medium mr-2">FIND YOUR AGENT</p>
             <button type="button">
-              <img src={arrow} alt="arrow" />
+              <img src="../src/assets/arrow.svg" alt="arrow.svg" />
             </button>
           </div>
         </div>
         <div className="flex flex-col items-start justify-around">
-          <img src={image5} alt="Outstanding service" className="w-full" />
+          <img
+            src="../src/assets/Image5.avif"
+            alt="Image5"
+            className="w-full"
+          />
           <p className="headings text-xl md:text-2xl py-4 md:py-7">
-            Tap into our local expertise and outstanding service.
+            Tap into our local expertise and outstanding service
           </p>
           <p className="text-justify">
             With experts in every corner of the globe, we have a local presence
             everywhere. Our innovative technology and unmatched service empower
             our brokerage offices to enhance both your property and your
-            home-selling journey.
+            home-selling journey
           </p>
           <div className="flex items-center pt-4">
             <p className="font-medium mr-2">CONTACT YOUR LOCAL OFFICE</p>
             <button type="button">
-              <img src={arrow} alt="arrow" />
+              <img src="../src/assets/arrow.svg" alt="arrow.svg" />
             </button>
           </div>
         </div>

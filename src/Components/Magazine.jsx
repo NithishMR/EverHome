@@ -1,8 +1,3 @@
-// /src/components/Magazine.js
-
-import React from "react";
-import arrowImage from "../src/assets/arrow.svg"; // Adjust the path as necessary
-
 function Magazine() {
   return (
     <>
@@ -27,8 +22,7 @@ function Magazine() {
             type="button"
             className="ml-3 p-2 bg-[#D4AF37] rounded-full hover:bg-[#b98a1c]"
           >
-            <img src={arrowImage} alt="arrow" />{" "}
-            {/* Use the imported image here */}
+            <img src="../src/assets/arrow.svg" alt="arrow" />
           </button>
         </div>
       </div>
