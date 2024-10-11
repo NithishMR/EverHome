@@ -22,7 +22,7 @@ function VideoSection() {
           type="button"
           className="ml-3 p-2 bg-[#D4AF37] rounded-full hover:bg-[#b98a1c]"
         >
-          <img src="/assets/images/arrow.svg" alt="arrow" />
+          <img src="/assets/arrow.svg" alt="arrow" />
         </button>
       </div>
     </div>
