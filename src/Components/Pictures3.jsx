@@ -49,7 +49,7 @@ function Pictures3() {
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
               className="w-full h-auto object-cover pa"
-              src="../src/assets/Image1.jpg"
+              src="../assets/Image1.jpg"
               alt="Image1"
             />
           </div>
@@ -75,7 +75,7 @@ function Pictures3() {
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
               className="w-full h-auto object-cover"
-              src="../src/assets/Image3.avif"
+              src="../assets/Image3.avif"
               alt="Image3"
             />
           </div>
@@ -101,7 +101,7 @@ function Pictures3() {
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
               className="w-full h-auto object-cover"
-              src="../src/assets/Image2.webp"
+              src="../assets/Image2.webp"
               alt="Image2"
             />
           </div>

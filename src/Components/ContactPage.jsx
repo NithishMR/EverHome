@@ -17,7 +17,7 @@ function ContactPage() {
       <div className="flex justify-center">
         <img
           className="w-full h-[200px] md:h-[300px] object-cover"
-          src="../src/assets/sir-background.png"
+          src="../assets/sir-background.png"
           alt="High Quality Image"
         />
       </div>

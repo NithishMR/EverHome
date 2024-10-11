@@ -1,5 +1,5 @@
 import React from "react";
-
+import ImageRight from "./ImageRight.avif";
 function WhatWeDo() {
   return (
     <div className="w-full my-20 px-4 md:px-8 lg:px-16">
@@ -22,7 +22,7 @@ function WhatWeDo() {
         <div className="flex items-center justify-center">
           <img
             className="w-full max-w-sm lg:max-w-md rounded-2xl"
-            src="../src/Components/ImageRight.avif"
+            src={ImageRight}
             alt="Image of a house or related to real estate"
           />
         </div>

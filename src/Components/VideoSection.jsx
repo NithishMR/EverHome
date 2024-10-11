@@ -1,7 +1,7 @@
 import React from "react";
 
 function VideoSection() {
-  const videoSrcMp4 = "../src/Components/HeroComponents/Video1.mp4";
+  const videoSrcMp4 = "/assets/Video1.mp4"; // Adjusted path
   return (
     <div className="mt-20 bg-[#002349] py-[80px] text-[#fff]">
       <div className="w-[90%] m-auto">
@@ -22,7 +22,7 @@ function VideoSection() {
           type="button"
           className="ml-3 p-2 bg-[#D4AF37] rounded-full hover:bg-[#b98a1c]"
         >
-          <img src="../src/assets/arrow.svg" alt="arrow" />
+          <img src="/assets/images/arrow.svg" alt="arrow" />
         </button>
       </div>
     </div>
