@@ -23,7 +23,7 @@ function WhatWeDo() {
           <img
             className="w-full max-w-sm lg:max-w-md rounded-2xl"
             src={ImageRight}
-            alt="Image of a house or related to real estate"
+            alt="Image of a house or related to reeal estate"
           />
         </div>
       </div>

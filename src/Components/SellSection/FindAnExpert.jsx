@@ -17,7 +17,7 @@ function FindAnExpert() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 w-[90%] md:w-[80%] gap-[20px] md:gap-[40px] m-auto pt-16 pb-24">
         <div className="flex flex-col items-start justify-around">
-          <img src="../src/assets/Image4.jpg" alt="Image4" className="w-full" />
+          <img src="assets/Image4.jpg" alt="Image4" className="w-full" />
           <p className="headings text-xl md:text-2xl py-4 md:py-7">
             Meet a local expert who can help your journey.
           </p>
@@ -30,16 +30,12 @@ function FindAnExpert() {
           <div className="flex items-center pt-4">
             <p className="font-medium mr-2">FIND YOUR AGENT</p>
             <button type="button">
-              <img src="../src/assets/arrow.svg" alt="arrow.svg" />
+              <img src="/assets/arrow.svg" alt="arrow.svg" />
             </button>
           </div>
         </div>
         <div className="flex flex-col items-start justify-around">
-          <img
-            src="../src/assets/Image5.avif"
-            alt="Image5"
-            className="w-full"
-          />
+          <img src="/assets/Image5.avif" alt="Image5" className="w-full" />
           <p className="headings text-xl md:text-2xl py-4 md:py-7">
             Tap into our local expertise and outstanding service
           </p>
@@ -52,7 +48,7 @@ function FindAnExpert() {
           <div className="flex items-center pt-4">
             <p className="font-medium mr-2">CONTACT YOUR LOCAL OFFICE</p>
             <button type="button">
-              <img src="../src/assets/arrow.svg" alt="arrow.svg" />
+              <img src="/assets/arrow.svg" alt="arrow.svg" />
             </button>
           </div>
         </div>

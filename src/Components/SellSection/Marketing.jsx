@@ -4,11 +4,7 @@ function Marketing() {
     <div id="marketing" className="grid grid-rows-2">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-around">
         <div className="py-5 md:py-7 ml-0 md:ml-8">
-          <img
-            src="../src/assets/Image6.avif"
-            alt="Image6"
-            className="w-full"
-          />
+          <img src="assets/Image6.avif" alt="Image6" className="w-full" />
         </div>
         <div className="text-start px-5">
           <p className="text-[30px] md:text-[50px] pt-10 md:pt-20 py-10">
@@ -39,20 +35,13 @@ function Marketing() {
           </p>
         </div>
         <div className="py-10 md:py-20 ml-0 md:ml-8">
-          <img
-            src="../src/assets/Image7.jpg!bw700"
-            alt="Image7"
-            className="w-full"
-          />
+          <img src="assets/Image7.jpg!bw700" alt="Image7" className="w-full" />
         </div>
       </div>
       <div className="grid grid-rows-2 bg-[#002349] text-[#fff] pb-20">
         <div className="w-[90%] md:w-[60%] ml-0 md:ml-28 py-10 md:py-28 ">
           <video controls className="w-full ml-[20px]">
-            <source
-              src="../src/Components/HeroComponents/Video3.mp4"
-              type="video/mp4"
-            ></source>
+            <source src="/assets/Video3.mp4" type="video/mp4"></source>
           </video>
         </div>
         <div className="flex flex-col items-center">
