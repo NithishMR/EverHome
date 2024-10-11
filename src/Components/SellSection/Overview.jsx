@@ -1,6 +1,9 @@
-// Overview.js
+// /src/components/Overview.js
+
+import React from "react";
+import videoSrcMp4 from "../src/Components/HeroComponents/Video2.mp4"; // Adjust the path as necessary
+
 function Overview() {
-  const videoSrcMp4 = "../src/Components/HeroComponents/Video2.mp4";
   return (
     <div id="overview" className="gradient-background text-[#fff]">
       <p className="text-[40px] md:text-[70px] text-center headings py-10">
@@ -26,7 +29,7 @@ function Overview() {
           Realty is your premier choice. Our exceptional agents are dedicated to
           providing an unmatched level of expertise, ensuring every detail is
           meticulously curated. We're committed to helping you sell your home
-          with a level of support and scale that is truly one of a kind
+          with a level of support and scale that is truly one of a kind.
         </p>
       </div>
     </div>

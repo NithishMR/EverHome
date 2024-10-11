@@ -1,12 +1,18 @@
-// Marketing.js
+// /src/components/Marketing.js
+
+import React from "react";
+import image6 from "../src/assets/Image6.avif"; // Adjust the path as necessary
+import image7 from "../src/assets/Image7.jpg"; // Adjust the path as necessary
+import video3 from "../src/Components/HeroComponents/Video3.mp4"; // Adjust the path as necessary
+
 function Marketing() {
   return (
     <div id="marketing" className="grid grid-rows-2">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-around">
         <div className="py-5 md:py-7 ml-0 md:ml-8">
           <img
-            src="../src/assets/Image6.avif"
-            alt="Image6"
+            src={image6}
+            alt="Be at the center of global attention"
             className="w-full"
           />
         </div>
@@ -20,7 +26,7 @@ function Marketing() {
             discerning clientele. Our award-winning website—available in 14
             languages—draws more visitors than any other luxury real estate
             platform. Our partnerships with top media outlets enhance site
-            traffic and amplify visibility for our listings
+            traffic and amplify visibility for our listings.
           </p>
         </div>
       </div>
@@ -39,20 +45,13 @@ function Marketing() {
           </p>
         </div>
         <div className="py-10 md:py-20 ml-0 md:ml-8">
-          <img
-            src="../src/assets/Image7.jpg!bw700"
-            alt="Image7"
-            className="w-full"
-          />
+          <img src={image7} alt="Marketing" className="w-full" />
         </div>
       </div>
       <div className="grid grid-rows-2 bg-[#002349] text-[#fff] pb-20">
-        <div className="w-[90%] md:w-[60%] ml-0 md:ml-28 py-10 md:py-28 ">
+        <div className="w-[90%] md:w-[60%] ml-0 md:ml-28 py-10 md:py-28">
           <video controls className="w-full ml-[20px]">
-            <source
-              src="../src/Components/HeroComponents/Video3.mp4"
-              type="video/mp4"
-            ></source>
+            <source src={video3} type="video/mp4" />
           </video>
         </div>
         <div className="flex flex-col items-center">

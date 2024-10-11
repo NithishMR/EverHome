@@ -1,4 +1,10 @@
-// Highlights.js
+// /src/components/Highlights.js
+
+import React from "react";
+import image8 from "../src/assets/Image8.webp"; // Adjust the path as necessary
+import image9 from "../src/assets/Image9.webp"; // Adjust the path as necessary
+import image10 from "../src/assets/Image10.webp"; // Adjust the path as necessary
+
 function Highlights() {
   return (
     <div>
@@ -12,11 +18,7 @@ function Highlights() {
       <div className="w-[90%] m-auto py-10 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[20px] md:gap-[40px]">
           <div className="text-center md:text-left">
-            <img
-              src="../src/assets/Image8.webp"
-              alt="Image8"
-              className="w-full"
-            />
+            <img src={image8} alt="Press Exposure" className="w-full" />
             <div className="py-6">
               <p className="text-[#666] py-2">IN THE NEWS</p>
               <p className="headings text-xl py-2">Press Exposure</p>
@@ -26,16 +28,12 @@ function Highlights() {
                 industry conversations. Our award-winning press office and
                 public relations initiatives establish the brand as a dominant
                 force in the luxury market, driving significant traffic to our
-                website and showcasing Everhome's International Realty listings
+                website and showcasing Everhome's International Realty listings.
               </p>
             </div>
           </div>
           <div className="text-center md:text-left">
-            <img
-              src="../src/assets/Image9.webp"
-              alt="Image9"
-              className="w-full"
-            />
+            <img src={image9} alt="Global Connections" className="w-full" />
             <div className="py-6">
               <p className="text-[#666] py-2">UNPARALLELED NETWORK</p>
               <p className="headings text-xl py-2">Global Connections</p>
@@ -49,11 +47,7 @@ function Highlights() {
             </div>
           </div>
           <div className="text-center md:text-left">
-            <img
-              src="../src/assets/Image10.webp"
-              alt="Image10"
-              className="w-full"
-            />
+            <img src={image10} alt="Unmatched Marketing" className="w-full" />
             <div className="py-6">
               <p className="text-[#666] py-2">THE HIGHEST STANDARD</p>
               <p className="headings text-xl py-2">Unmatched Marketing</p>
@@ -61,7 +55,7 @@ function Highlights() {
                 Everhome's International Realty collaborates with top-tier
                 creative agencies and our internal team to effectively engage
                 with global consumers, ensuring that sophisticated design
-                remains at the core of our approach
+                remains at the core of our approach.
               </p>
             </div>
           </div>
