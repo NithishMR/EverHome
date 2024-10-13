@@ -65,7 +65,7 @@ function Pictures3() {
 
         {/* Second Image */}
         <div
-          className={` pt-10 transition-transform duration-1000 ${
+          className={`  transition-transform duration-1000 ${
             secondImageInView
               ? "translate-y-0 opacity-100"
               : "translate-y-12 opacity-0"
@@ -105,12 +105,12 @@ function Pictures3() {
               alt="Image2"
             />
           </div>
-          <div className="text-center mt-4">
+          <div className="text-center ">
             <p className="font-['Open_Sans'] text-xl md:text-2xl mb-2 TimesNewRoman text-[#fff] ">
               View homes from the <br />
               comfort of your life
             </p>
-            <p className="text-[#999] pt-5">
+            <p className="text-[#999] ">
               Experience luxurious homes like never before, all from the comfort
               of yours
             </p>
