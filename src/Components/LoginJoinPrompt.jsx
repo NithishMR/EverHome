@@ -4,7 +4,7 @@ import SignupPage from "./SignUp";
 function LoginJoinPrompt() {
   return (
     <>
-      <div className="navbar bg-[#001731] text-[#fff] items-center justify-between p-1 md:p-2 lg:p-4">
+      <div className="navbar bg-[#001731] text-[#fff] items-center justify-between p-4 md:p-2 lg:p-4">
         <div className="flex gap-1 md:gap-2 lg:gap-3">
           <button
             className="btn bg-[#001731] text-[#fff] border-none hover:bg-[#00234f] transition-colors"
@@ -30,7 +30,7 @@ function LoginJoinPrompt() {
             document.getElementById("my_modal_1").close()
           }
         >
-          <div className="modal-box bg-[#002349] p-8 md:p-12 lg:p-16 max-w-md mx-auto">
+          <div className="modal-box  p-8 md:p-12 lg:p-16 max-w-md mx-auto">
             <div className="flex flex-col items-center">
               <h2
                 id="login-title"
@@ -59,7 +59,7 @@ function LoginJoinPrompt() {
             document.getElementById("my_modal_2").close()
           }
         >
-          <div className="modal-box bg-[#002349] p-8 md:p-12 lg:p-16 max-w-md mx-auto">
+          <div className="modal-box  p-8 md:p-12 lg:p-16 max-w-md mx-auto">
             <div className="flex flex-col items-center">
               <h2
                 id="signup-title"

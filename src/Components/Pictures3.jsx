@@ -26,7 +26,7 @@ function Pictures3() {
         }`}
         ref={storiesRef}
       >
-        <div className="text-center text-[30px] md:text-[40px] lg:text-[50px] font-bold py-10 text-[#fff]">
+        <div className="text-center text-[30px] md:text-[40px] lg:text-[50px] font-bold py-10 text-[#000]">
           LUXURY MAGAZINE
         </div>
         <div className="text-center text-[20px] md:text-[30px] lg:text-[40px] font-light text-[#000] mb-8">
@@ -54,7 +54,7 @@ function Pictures3() {
             />
           </div>
           <div className="text-center mt-4">
-            <p className="font-['Open_Sans'] text-xl md:text-2xl mb-2 TimesNewRoman text-[#fff]">
+            <p className="font-['Open_Sans'] text-xl md:text-2xl mb-2 TimesNewRoman text-[#000]">
               Luxury Magazine
             </p>
             <p className="text-[#999]">
@@ -80,7 +80,7 @@ function Pictures3() {
             />
           </div>
           <div className="text-center mt-4">
-            <p className="font-['Open_Sans'] text-xl md:text-2xl mb-2 TimesNewRoman text-[#fff]">
+            <p className="font-['Open_Sans'] text-xl md:text-2xl mb-2 TimesNewRoman text-[#000]">
               LUXURY Outlook
             </p>
             <p className="text-[#999]">
@@ -105,8 +105,8 @@ function Pictures3() {
               alt="Image2"
             />
           </div>
-          <div className="text-center ">
-            <p className="font-['Open_Sans'] text-xl md:text-2xl mb-2 TimesNewRoman text-[#fff] ">
+          <div className="text-center mt-4">
+            <p className="font-['Open_Sans'] text-xl md:text-2xl mb-2 TimesNewRoman text-[#000] ">
               View homes from the <br />
               comfort of your life
             </p>
