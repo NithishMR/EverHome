@@ -36,11 +36,11 @@ function Navigation() {
                 STORIES
               </div>
             </Link>
-            <Link to="/Sell" aria-label="Sell With Us">
+            {/* <Link to="/Sell" aria-label="Sell With Us">
               <div className="cursor-pointer border-2 border-[#D4AF37] p-2 md:p-3 hover:bg-[#D4AF37] hover:text-[#002349] transition duration-300">
                 SELL WITH US
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

@@ -1,8 +1,18 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-
 function PrivacyAndCookies() {
+  const [cookiesDisplay, setCookiesDisplay] = useState(false);
+  const handleToggle = () => {
+    setCookiesDisplay((prevState) => !prevState);
+  };
   return (
-    <div className="bg-[#002349] text-[#fff] py-4 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between custom-border4">
+    <div
+      className={
+        cookiesDisplay
+          ? "hidden"
+          : "bg-[#002349] text-[#fff] py-4 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between custom-border4"
+      }
+    >
       {/* Message Section */}
       <div className=" leftToRight text-center md:text-left mb-4 md:mb-0">
         By using this site, you agree with our use of cookies.{" "}
@@ -17,6 +27,7 @@ function PrivacyAndCookies() {
       <div className="flex flex-col md:flex-row gap-2 md:gap-4">
         <button
           type="button"
+          onClick={handleToggle}
           className="bg-[#D4AF37] text-[#002349] hover:bg-[#b89a2a] font-semibold py-2 px-4 rounded-md"
         >
           OK
