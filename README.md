@@ -14,4 +14,4 @@ This project is in continuous development. Below are the features currently avai
 - Additional features are being developed and will be available soon.
 
 ## Live Preview
-For a live preview, visit the [Everhome website](https://everhome.vercel.app/).
+<!--For a live preview, visit the [Everhome website].-->
